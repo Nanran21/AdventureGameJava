@@ -1,1 +1,54 @@
 # The problem this program aims to solve is how to create an engaging and interactive storytelling experience that allows readers to actively participate in shaping the direction of an adventure story- I have been working on ways to keep my ADHD child engaged in reading- these types of stories have provided an avenue for engagement and I would like to continue to help other parents facing similar issues. The input data will include user choices at key decision points within the story, such as selecting a character’s action, direction, or response to challenges. The program will use these inputs to navigate through a branching storyline, determining the next scene or outcome based on the user's selections. To solve the problem, the program will implement a decision-tree or flowchart structure that tracks user choices and progresses the narrative accordingly. The output will be a dynamic and personalized version of the story, with different paths and endings revealed based on the reader’s decisions, providing a unique and entertaining experience each time.The problem this program aims to solve is how to create an engaging and interactive storytelling experience that allows readers to actively participate in shaping the direction of an adventure story- I have been working on ways to keep my ADHD child engaged in reading- these types of stories have provided an avenue for engagement and I would like to continue to help other parents facing similar issues. The input data will include user choices at key decision points within the story, such as selecting a character’s action, direction, or response to challenges. The program will use these inputs to navigate through a branching storyline, determining the next scene or outcome based on the user's selections. To solve the problem, the program will implement a decision-tree or flowchart structure that tracks user choices and progresses the narrative accordingly. The output will be a dynamic and personalized version of the story, with different paths and endings revealed based on the reader’s decisions, providing a unique and entertaining experience each time.
+# 
+
+Two distinct possible scenarios: 
+Scenario 1: A Jungle Adventure
+Input Data:
+    The user chooses between two paths: left or right at a jungle fork.
+
+Steps to Solve the Problem:
+    Display the story introduction: 
+     "You are walking through a dense jungle and come to a fork in the path."
+
+Ask the user: 
+"Do you want to go left or right?"
+
+Wait for the user's input.
+
+If the user chooses left, display:
+     "You find a hidden waterfall and a friendly tribe offers you food and shelter."
+
+If the user chooses right, display: 
+     "You run into a wild tiger and have to climb a tree to escape."
+
+Result:
+
+If the user chooses left, they reach a peaceful village and are safe.
+
+If the user chooses right, they escape danger but remain lost in the jungle.
+
+Scenario 2: A Space Mission
+Input Data:
+     The user decides whether to explore the planet or stay in the spaceship.
+
+Steps to Solve the Problem:
+    Display the story introduction: 
+     "You are an astronaut orbiting a mysterious new planet."
+
+Ask the user:
+      "Do you want to explore the planet or stay in the spaceship?"
+
+Wait for the user's input.
+
+If the user chooses explore, display: 
+     "You discover alien life and make first contact, changing history."
+
+If the user chooses stay, display:
+      "A solar flare damages the spaceship, and you must work quickly to repair it."
+
+Result:
+
+Choosing explore leads to a major scientific discovery.
+
+Choosing stay results in a tense but successful survival challenge.
+
