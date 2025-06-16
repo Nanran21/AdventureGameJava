@@ -1,0 +1,68 @@
+
+// This pseudocode outlines a basic interactive story program that:
+•	Offers two story scenarios,
+•	Accepts user decisions at key points,
+•	Branches the story based on user input,
+•	And provides a unique outcome for each choice.
+It mirrors how you might structure this program in Java using conditional statements, input handling, and System.out.println() for output.
+
+
+// Start of main method
+Start main()
+
+    // Display the introduction and menu
+    Display "Welcome to the Choose Your Own Adventure Program!"
+    Display "Please choose your adventure:"
+    Display "1. Jungle Adventure"
+    Display "2. Space Mission"
+
+    // Get user input for adventure selection
+    int adventureChoice = getUserInput()
+
+    // Handle Jungle Adventure scenario
+    if (adventureChoice == 1) {
+        Display "You are walking through a dense jungle and come to a fork in the path."
+        Display "Do you want to go left or right?"
+        Display "1. Left"
+        Display "2. Right"
+
+        int jungleChoice = getUserInput()
+
+        if (jungleChoice == 1) {
+            Display "You find a hidden waterfall and a friendly tribe offers you food and shelter."
+        }
+        else if (jungleChoice == 2) {
+            Display "You run into a wild tiger and have to climb a tree to escape."
+        }
+        else {
+            Display "Invalid choice. Please restart the game."
+        }
+    }
+
+    // Handle Space Mission scenario
+    else if (adventureChoice == 2) {
+        Display "You are an astronaut orbiting a mysterious new planet."
+        Display "Do you want to explore the planet or stay in the spaceship?"
+        Display "1. Explore the planet"
+        Display "2. Stay in the spaceship"
+
+        int spaceChoice = getUserInput()
+
+        if (spaceChoice == 1) {
+            Display "You discover alien life and make first contact, changing history."
+        }
+        else if (spaceChoice == 2) {
+            Display "A solar flare damages the spaceship, and you must work quickly to repair it."
+        }
+        else {
+            Display "Invalid choice. Please restart the game."
+        }
+    }
+
+    // Handle invalid adventure selection
+    else {
+        Display "Invalid adventure selection. Please restart the game."
+    }
+
+End main()
+
